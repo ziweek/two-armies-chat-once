@@ -1,4 +1,5 @@
 # TACO: Two Armies, Chat Once
+<br/>
 
 <p align="center">
   <strong>A multilingual chatbot<br/>providing regulations of the US Army and ROK Army<br/>in both English and Korean.</strong>
