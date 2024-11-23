@@ -1,6 +1,11 @@
 # TACO: Two Armies, Chat Once
 
-시연 영상
+<div align="center">
+  <video width="400" controls>
+    <source src="src/demo.webm" type="video/webm">
+    Sorry, browser doesn't support embedded videos.
+  </video>
+</div>
 
 <br/>
 <p align="center">
@@ -48,15 +53,15 @@
 </table>
 <br/>
 
-In South Korea, there is a unique military program known as KATUSA (Korean Augmentation to the U.S. Army).
-
-Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command.
-
-Due to this unique structure, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
+In South Korea, there is a unique military program known as KATUSA (Korean Augmentation to the U.S. Army). Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command. Due to this unique structure, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
 
 This project aims to develop a chatbot powered by Retrieval-Augmented Generation (RAG) architecture, designed to provide clear and accurate answers in both English and Korean.
 
+<br/>
+
 # How to Use
+
+<br/>
 
 # Contribution
 
