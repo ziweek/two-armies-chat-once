@@ -5,14 +5,6 @@
   <strong>A multilingual chatbot<br/>providing regulations of the US Army and ROK Army<br/>in both English and Korean.</strong>
   <br/>
   <br/>
-  <a href='https://my-dear-pass-usfk.vercel.app/'>
-    <img src="https://img.shields.io/badge/Product-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-  </a>
-  <a href='https://colab.research.google.com/drive/13-VZyx3LiYPRS8aw-AcMSBK0Z4--TF2j?usp=sharing'>
-    <img src="https://img.shields.io/badge/Tutorial-Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
-  </a>
-  <br/>
-  <br/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/ChatGPT-412991?style=flat-square&logo=openai&logoColor=white"/>
@@ -24,12 +16,21 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
   <br/>
-  <br/>
-
-  <br/>
-  <br/>
 </p>
 
+<p align="center">
+  <strong>Try below badges</strong>
+  <br/>
+  <br/>
+  <a href='https://my-dear-pass-usfk.vercel.app/'>
+    <img src="https://img.shields.io/badge/Product-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  </a>
+  <a href='https://colab.research.google.com/drive/13-VZyx3LiYPRS8aw-AcMSBK0Z4--TF2j?usp=sharing'>
+    <img src="https://img.shields.io/badge/Tutorial-Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
+  </a>
+</p>
+<br/>
+<br/>
 
 # Introduction
 
