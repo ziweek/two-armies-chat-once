@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit_chat import message
 
 import langid
-from utils.model import run_llm
+from utils.model import run_llm, run_llm_multilangual
 
 import pprint
 import requests
@@ -18,20 +18,14 @@ st.text("카투사 병사들이 한미 육군 규정을 영어와 한국어로 �
 prompt = st.text_area("Prompt", placeholder="Enter your prompt")
 
 def get_profile_picture(email):
-    # This uses Gravatar to get a profile picture based on email
-    # You can replace this with a different service or use a default image
     github_user_api_url = f"https://api.github.com/users/ziweek"
     github_user_api_response = requests.get(github_user_api_url)
-    # print(Dict(github_user_api_response.content))
     github_user_api_result = json.loads(github_user_api_response.content)
     img = github_user_api_result["avatar_url"]
     return img
 
-# Sidebar user information
 with st.sidebar:
     st.title("User Profile")
-
-    # You can replace these with actual user data
     user_name = "JIUK KIM"
     user_email = "alex.jiuk.kim@gmail.com"
     user_github = "https://github.com/ziweek"
@@ -48,16 +42,19 @@ with st.sidebar:
 if prompt:
     with st.spinner("Generating reponse..."):
         detected_language = langid.classify(prompt) 
-        
-        generated_response = run_llm(query=prompt)
+        # print(type(detected_language))
+        # print(detected_language[0] == "en")
+        generated_response = run_llm_multilangual(query=prompt, query_lang=detected_language[0])
         documents_metadata_source = list([document.metadata["source"].replace("rag/src/", "") for document in generated_response["context"]])
         documents_metadata_page = list([document.metadata["page"] for document in generated_response["context"]])
         documents_page_contents = list([document.page_content for document in generated_response["context"]])
         sources_string = "\n\n".join([f"{documents_metadata_source} Page{documents_metadata_page}\n{documents_page_contents}" for documents_metadata_source, documents_metadata_page, documents_page_contents in zip(documents_metadata_source, documents_metadata_page, documents_page_contents)])
         
         st.subheader("Question")
+        # st.text(body=result_translation)
         st.text(body=generated_response['input'])
         st.subheader("Answer")
+        # st.text(body=result_translation)
         st.text(body=generated_response['answer'])
         st.subheader("Sources")
         st.text(body=sources_string)
