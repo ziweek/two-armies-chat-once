@@ -55,7 +55,7 @@ Due to the unique structure of KATUSA program, KATUSA soldiers are required to f
     </td>
     <td>
       <p align='center'>
-        Language Comparison
+        Multilingual Support
       </p>
     </td>
   </tr>
