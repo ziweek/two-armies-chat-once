@@ -8,6 +8,8 @@ import langid
 from utils.model import run_llm
 
 import pprint
+import requests
+import json
 
 
 st.title("TACO | Two Armies Chat Once")
@@ -15,6 +17,15 @@ st.text("A chatbot to help KATUSA soldiers navigate U.S. and ROK Army regulation
 st.text("카투사 병사들이 한미 육군 규정을 영어와 한국어로 탐색할 수 있도록 돕는 챗봇입니다.")
 prompt = st.text_area("Prompt", placeholder="Enter your prompt")
 
+def get_profile_picture(email):
+    # This uses Gravatar to get a profile picture based on email
+    # You can replace this with a different service or use a default image
+    github_user_api_url = f"https://api.github.com/users/ziweek"
+    github_user_api_response = requests.get(github_user_api_url)
+    # print(Dict(github_user_api_response.content))
+    github_user_api_result = json.loads(github_user_api_response.content)
+    img = github_user_api_result["avatar_url"]
+    return img
 
 # Sidebar user information
 with st.sidebar:
@@ -23,11 +34,15 @@ with st.sidebar:
     # You can replace these with actual user data
     user_name = "JIUK KIM"
     user_email = "alex.jiuk.kim@gmail.com"
+    user_github = "https://github.com/ziweek"
+    user_linkedin = "https://www.linkedin.com/in/ziweek"
 
     profile_pic = get_profile_picture(user_email)
-    st.image(profile_pic, width=150)
-    st.write(f"**Name:** {user_name}")
-    st.write(f"**Email:** {user_email}")
+    st.image(profile_pic)
+    st.write(f"Name: {user_name}")
+    st.write(f"Email: {user_email}")
+    st.write(f"Github: {user_github}")
+    st.write(f"Linkedin: {user_linkedin}")
 
 
 if prompt:
