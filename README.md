@@ -5,6 +5,14 @@
   <strong>A multilingual chatbot<br/>providing regulations of the US Army and ROK Army<br/>in both English and Korean.</strong>
   <br/>
   <br/>
+  <a href='https://my-dear-pass-usfk.vercel.app/'>
+    <img src="https://img.shields.io/badge/Product-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  </a>
+  <a href='https://colab.research.google.com/drive/13-VZyx3LiYPRS8aw-AcMSBK0Z4--TF2j?usp=sharing'>
+    <img src="https://img.shields.io/badge/Tutorial-Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
+  </a>
+  <br/>
+  <br/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/ChatGPT-412991?style=flat-square&logo=openai&logoColor=white"/>
@@ -15,25 +23,27 @@
   <img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
+  <br/>
+  <br/>
+
+  <br/>
+  <br/>
 </p>
 
-<p align="center">  
-  <strong>Check the prototype in the badge below.<strong>
-  <br/>
-  <br/>
-  <a href='https://my-dear-pass-usfk.vercel.app/'>
-    <img src="https://img.shields.io/badge/Product-Vercel-000000?style=flat-square"/>
-  </a>
-  <a href='https://colab.research.google.com/drive/13-VZyx3LiYPRS8aw-AcMSBK0Z4--TF2j?usp=sharing'>
-    <img src="https://img.shields.io/badge/Tutorial-Google%20Colab-F9AB00?style=flat-square"/>
-  </a>
-</p>
 
 # Introduction
 
-TACO (Two Armies Chat Once) aims to develop a chatbot powered by Retrieval-Augmented Generation (RAG) architecture, designed to provide clear and accurate answers in both English and Korean.
-
-Powered by LangChain and Streamlit
+TACO (Two Armies Chat Once) aims to develop a chatbot powered by Retrieval-Augmented Generation (RAG) architecture using LangChain and Streamlit, designed to provide clear and accurate answers in both English and Korean.
+<br/>
+<details>
+ <summary><b>What's KATUSA</b></summary>
+In South Korea, there is a unique military program known as KATUSA (Korean Augmentation to the U.S. Army). Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command.
+</details>
+<details>
+ <summary><b>Why do KATUSA soldiers need this?</b></summary>
+Due to the unique structure of KATUSA program, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
+<br/>
+</details>
 <br/>
 
 <table>
@@ -63,8 +73,6 @@ Powered by LangChain and Streamlit
 </td>
   </tr>
 </table>
-
-In South Korea, there is a unique military program known as KATUSA (Korean Augmentation to the U.S. Army). Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command. Due to this unique structure, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
 <br/>
 
 # How to Use
