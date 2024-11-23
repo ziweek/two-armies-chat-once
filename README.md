@@ -1,12 +1,13 @@
 # TACO: Two Armies, Chat Once
 
 <p align="center">
-  <strong>A multilingual chatbot providing regulations of the US Army and ROK Army in both English and Korean.</strong>
+  <strong>A multilingual chatbot<br/>providing regulations of the US Army and ROK Army<br/>in both English and Korean.</strong>
   <br/>
   <br/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/ChatGPT-412991?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=Ollama&logoColor=white"/>
   <br/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
@@ -15,6 +16,17 @@
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
 </p>
 
+<p align="center">  
+  <strong>Check the prototype in the badge below.<strong>
+  <br/>
+  <br/>
+  <a href='https://my-dear-pass-usfk.vercel.app/'>
+    <img src="https://img.shields.io/badge/Product-Vercel-000000?style=flat-square"/>
+  </a>
+  <a href='https://colab.research.google.com/drive/13-VZyx3LiYPRS8aw-AcMSBK0Z4--TF2j?usp=sharing'>
+    <img src="https://img.shields.io/badge/Tutorial-Google%20Colab-F9AB00?style=flat-square"/>
+  </a>
+</p>
 
 # Introduction
 
