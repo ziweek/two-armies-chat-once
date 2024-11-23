@@ -2,22 +2,26 @@
 <br/>
 
 <p align="center">
-  <strong>A multilingual chatbot<br/>providing regulations of the US Army and ROK Army<br/>in both English and Korean.</strong>
+  <strong>A Multilingual RAG Chatbot for Regulations of the US Army and ROK Army</strong>
   <br/>
   <br/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=Ollama&logoColor=white"/>
   <img src="https://img.shields.io/badge/ChatGPT-412991?style=flat-square&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=Ollama&logoColor=white"/>
   <br/>
   <img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
-  <br/>
 </p>
+<br/>
 
+[demo.webm](https://github.com/user-attachments/assets/6b818b4d-6e78-444d-8fed-a73401ebc6d7)
+
+<br/>
 <p align="center">
   <strong>Try below badges</strong>
   <br/>
@@ -30,17 +34,18 @@
   </a>
 </p>
 <br/>
-<br/>
 
 # Introduction
 
 TACO (Two Armies Chat Once) aims to develop a chatbot powered by Retrieval-Augmented Generation (RAG) architecture using LangChain and Streamlit, designed to provide clear and accurate answers in both English and Korean.
 <br/>
-<details>
+<details open>
  <summary><b>What's KATUSA</b></summary>
-In South Korea, there is a unique military program known as KATUSA (Korean Augmentation to the U.S. Army). Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command.
+  
+In South Korea, there is a unique military program known as KATUSA ([Korean Augmentation to the United States Army](https://en.wikipedia.org/wiki/Korean_Augmentation_to_the_United_States_Army)). Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command.
+
 </details>
-<details>
+<details open>
  <summary><b>Why do KATUSA soldiers need this?</b></summary>
 Due to the unique structure of KATUSA program, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
 <br/>
@@ -50,34 +55,35 @@ Due to the unique structure of KATUSA program, KATUSA soldiers are required to f
 <table>
   <tr>
      <td>
-      <p align='center'>
-        Demo Video
-      </p>
-    </td>
-    <td>
-      <p align='center'>
+      <h3 align='center'>
         Multilingual Support
-      </p>
+      </h3>
     </td>
   </tr>
-  
   <tr>
     <td style="width:1/2;">
-
-[demo.webm](https://github.com/user-attachments/assets/6b818b4d-6e78-444d-8fed-a73401ebc6d7)
-
-</td>
-    <td style="width:1/2;">
-
-[demo.webm](https://github.com/user-attachments/assets/6b818b4d-6e78-444d-8fed-a73401ebc6d7)
-
-</td>
+      <img src="./src/image-comparison-translation.png"/>
+    </td>
   </tr>
 </table>
 <br/>
 
-# How to Use
+# implementation
 
+<table>
+  <tr>
+     <td>
+      <h3 align='center'>
+        Multilingual Support
+      </h3>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:1/2;">
+      <img src="./src/image-comparison-translation.png"/>
+    </td>
+  </tr>
+</table>
 <br/>
 
 # Contribution
