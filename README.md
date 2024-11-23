@@ -2,7 +2,7 @@
 <br/>
 
 <p align="center">
-  <strong>A Multilingual RAG Chatbot for Regulations of the US Army and ROK Army</strong>
+  <strong>A Korean-English bilingual RAG Chatbot for Regulations of US and ROK Army</strong>
   <br/>
   <br/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
@@ -56,7 +56,7 @@ Due to the unique structure of KATUSA program, KATUSA soldiers are required to f
   <tr>
      <td>
       <h3 align='center'>
-        Multilingual Support
+        Korean-English Bilingual Support
       </h3>
     </td>
   </tr>
@@ -74,7 +74,7 @@ Due to the unique structure of KATUSA program, KATUSA soldiers are required to f
   <tr>
      <td>
       <h3 align='center'>
-        Multilingual Support
+        Korean-English bilingual Support
       </h3>
     </td>
   </tr>
