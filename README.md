@@ -68,7 +68,30 @@ Due to the unique structure of KATUSA program, KATUSA soldiers are required to f
 </table>
 <br/>
 
-# implementation
+# Performance
+
+
+
+# Implementation
+
+TACO (Two Armies Chat Once) aims to develop a chatbot powered by Retrieval-Augmented Generation (RAG) architecture using LangChain and Streamlit, designed to provide clear and accurate answers in both English and Korean.
+<br/>
+<details open>
+ <summary><b>1st Trial > Fail - Used small LLM (llama3.2:1b) for bilingual translation</b></summary>
+In South Korea, there is a unique military program known as KATUSA ([Korean Augmentation to the United States Army](https://en.wikipedia.org/wiki/Korean_Augmentation_to_the_United_States_Army)). Although KATUSA soldiers are South Korean citizens, they are assigned to U.S. Army units and operate under U.S. Army command.
+
+</details>
+<details open>
+  <summary><b>2nd Trial > Fail - Used pre-trained LLM (Llama-3-Open-Ko-8B-Q5_K_M) for bilingual translation</b></summary>
+Due to the unique structure of KATUSA program, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
+<br/>
+</details>
+<details open>
+ <summary><b>Final Trial > Sucess - Used fine-tuned LLM (Llama-3-Open-Ko-8B-Q5_K_M) for bilingual translation</b></summary>
+Due to the unique structure of KATUSA program, KATUSA soldiers are required to follow both U.S. Army regulations and ROK Army (Republic of Korea Army) regulations. However, these two sets of regulations are sometimes incompatible, leading to confusion about the cultural and procedural differences between the two military systems.
+<br/>
+</details>
+<br/>
 
 <table>
   <tr>
@@ -84,6 +107,9 @@ Due to the unique structure of KATUSA program, KATUSA soldiers are required to f
     </td>
   </tr>
 </table>
+<br/>
+
+
 <br/>
 
 # Contribution
